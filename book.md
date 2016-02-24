@@ -1,4 +1,4 @@
-% Untitled
+% Untitled (Wasp)
 % Jon Ross
 % February 23, 2016
 
