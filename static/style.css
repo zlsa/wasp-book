@@ -1,0 +1,109 @@
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+
+* {
+  background: none;
+  border: none;
+  outline: none;
+
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: inherit;
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Merriweather, serif;
+}
+
+body {
+  max-width: 40em;
+  margin: 1em auto;
+  margin-bottom: 3em;
+  padding: 0 1em;
+  text-align: justify;
+  line-height: 160%;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+p + p {
+  text-indent: 1.5em;
+}
+
+blockquote {
+  margin: 2em 1.5em;
+  margin-bottom: 0;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote + * {
+  margin-top: 2em;
+}
+
+blockquote + blockquote {
+  margin-top: 0;
+}
+
+blockquote p {
+  text-indent: 0;
+}
+
+hr:after {
+  content: '***';
+  display: block;
+  text-align: center;
+  margin: 2em 0;
+  letter-spacing: 2em;
+}
+
+pre {
+  font-style: italic;
+  text-align: center;
+  margin: 3em 0;
+  padding: 1em;
+  border: 2px dotted #888;
+  border-width: 2px 0;
+}
+
+h1 {
+  font-size: 130%;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  margin-top: 48px;
+}
+
+header {
+  margin: 2em 0;
+  text-align: center;
+}
+
+header h1.title {
+  margin: 10px 0;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+header .author {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+header .date {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 70%;
+}
+
