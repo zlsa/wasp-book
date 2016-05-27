@@ -1,93 +1,361 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="author" content="Jon Ross">
-  <meta name="dcterms.date" content="2016-02-24">
-  <title>Untitled (Wasp)</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="static/style.css">
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-<header>
-<h1 class="title">Untitled (Wasp)</h1>
-<h2 class="author">Jon Ross</h2>
-<h3 class="date">February 24, 2016</h3>
-</header>
-<h1 id="prologue">Prologue</h1>
-<p>The spaceship blinked into existence sixteen thousand kilometers above the blue-gray surface of the planet. At first, it sat there silently; then, after a few minutes, the four mammoth engines slowly resumed their quiet hum, and the plasma thrusters at the nose and the tail thrust in short bursts to reorient the heavy ship. The jump it had just performed was much further than usual, and as a result, it took the ship’s full energy reserves to complete the jump.</p>
-<p>The exterior, formerly smooth and white, was pockmarked with many gashes and gaping holes, and some of the plasma thrusters could only produce short, sputtering discharges. One of the engine housings had been cracked, and two of the aerodynamic fins at the tail were bent at odd angles. A row of scrapes ran the entire length of the right side, exposing the internal hoses and cables where the skin had been peeled back.</p>
-<p>The orbit it had jumped into was highly elliptical; it was near the periapsis of its orbit, and would swing around the planet in an orbit with a three-month period. If the ship had been in better condition, it would be preparing for planetary entry by lowering its orbit. In its current condition, though, it couldn’t hope to survive the atmospheric entry to the surface in one piece; indeed, it was almost a miracle that it had completed the jump in the first place. Damage that extensive usually resulted in a scrap of the ship; it was simply too expensive and difficult to repair.</p>
-<p>So the captain sent out a distress signal on the system-wide navcom network, and a few hours later, a smaller ship with red and white stripes painted on it approached from the distant planet. It approached the damaged ship, which opened a small door on its hull, through which a docking mechanism extended. The smaller ship maneuvered itself until it was next to the dock, then uncovered and extended its own. Hard contact between the two was confirmed at eight hours and fourteen minutes after the damaged ship had first jumped in.</p>
-<p>The ships remained docked for three days; during this time, the damaged ship was stripped of valuable items, and its crew prepared to return to the planet. The ship would be tracked by radar; it would remain in its orbit for centuries. The orbit would be made public, and one of the myriad space salvage corporations would eventually separate the ship of every bit of valuable material it held.</p>
-<p>After the rescue ship departed, the damaged ship remained alone for nearly a week; then, a massive ship jumped into the system, only a few hundred kilometers away. Its sharp, angular lines covered up a massive power plant and engine, and the double slots at the front were used for launching close-range attack drones. It was an offensive battleship, the likes of which only the UASF could design or afford. Such a ship would usually be detected by system scans the moment it jumped in; however, this ship was protected by an advanced visual and radio shield that warped space around it. As long as the shield remained active, the ship would be undetectable by all but the most advanced scanners.</p>
-<p>Over the next two days, it slowly approached the damaged ship; then, in the span of only a few minutes, the shield was disabled, the damaged ship was pulled in by drones, and the battleship jumped out with the damaged ship on board.</p>
-<p>The dramatic gravitic ripple was reported mere minutes later on the planet and on its three space stations; speculation abounded as to the cause. After the scanners had stopped going haywire, it was noticed that the damaged ship was gone. Nuclear thermal runaway in ship power plants was not unheard of, but it was rare; however, that it would happen to such a badly damaged ship was not a surprise. The event was quickly forgotten.</p>
-<p>The last member of the damaged ship’s crew had been discharged from the hospital the day of the event. None of them had been heard from since.</p>
-<hr />
-<h1 id="chapter-1">Chapter 1</h1>
-<p>The <em>Wasp</em>’s four aerodynamic drag flaps deploy at four hundred and fifty kilometers above the surface. The flaps protect the delicate engines during the harsh atmospheric entry, as well as decreasing terminal velocity once in the thick soup of the lower atmosphere. The building-sized spacecraft, gleaming white in the yellow glow of the distant sun, contains four crew and three hundred tons of out-of-system cargo. Some of it is legal, too.</p>
-<p>The bridge—if a two-man cockpit can be called that—displays the trajectory and surroundings of the ship, as well as the status of its systems. Instead of the inches-thick diamond windshield used in earlier models, the <em>Wasp</em> has a fully digital bridge. Sensors mounted on the vehicle relay data to the ship’s computer core, and it renders the environment and displays it on window-sized display panels. The <em>Wasp</em> is capable of flying itself in nearly any condition; like all modern ships, the human crew is aboard only as a precaution.</p>
-<p>The <em>Wasp</em> was built only three years ago, in 3402; and as such, it was a highly advanced, state-of-the-art spaceship, capable of both interstellar jumps and atmospheric entry and landing. In a pinch, it could jump a cumulative 30 light years per day.</p>
-<p>This last attribute was the reason its crew had chosen the <em>Wasp</em>. The manufacturer had only produced a dozen Athro-class ships before one had gone missing, along with its crew and single passenger, the leader of the twelve member systems of the Interplanetary Alliance. The legal proceedings mired the company, and they were shuttered within months. As the fastest ship in the galaxy, it made a good ship for barely-legal cargo.</p>
+  <head>
+    
+    <title>Wasp</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="title">Wasp</h1>
+      <h2 class="author">Jon Ross</h2>
+    </header>
+    <main>
+      <section>
+  <header id="prologue">
+    <h1 class="name">Prologue</h1>
+  </header>
+  <p>The spaceship blinked into existence sixteen thousand kilometers above
+the blue-gray surface of the planet. At first, it sat there silently;
+then, after a few minutes, the four mammoth engines slowly resumed
+their quiet hum, and the plasma thrusters at the nose and the tail
+thrust in short bursts to reorient the heavy ship. The jump it had
+just performed was much further than usual, and as a result, it took
+the ship’s full energy reserves to complete the jump.</p>
+<p>The exterior, formerly smooth and white, was pockmarked with many
+gashes and gaping holes, and some of the plasma thrusters could only
+produce short, sputtering discharges. One of the engine housings had
+been cracked, and two of the aerodynamic fins at the tail were bent at
+odd angles. A row of scrapes ran the entire length of the right side,
+exposing the internal hoses and cables where the skin had been peeled
+back.</p>
+<p>The orbit it had jumped into was highly elliptical; it was near the
+periapsis of its orbit, and would swing around the planet in an orbit
+with a three-month period. If the ship had been in better condition,
+it would be preparing for planetary entry by lowering its orbit. In
+its current condition, though, it couldn’t hope to survive the
+atmospheric entry to the surface in one piece; indeed, it was almost a
+miracle that it had completed the jump in the first place. Damage that
+extensive usually resulted in a scrap of the ship; it was simply too
+expensive and difficult to repair.</p>
+<p>So the captain sent out a distress signal on the system-wide navcom
+network, and a few hours later, a smaller ship with red and white
+stripes painted on it approached from the distant planet. It
+approached the damaged ship, which opened a small door on its hull,
+through which a docking mechanism extended. The smaller ship
+maneuvered itself until it was next to the dock, then uncovered and
+extended its own. Hard contact between the two was confirmed at eight
+hours and fourteen minutes after the damaged ship had first jumped in.</p>
+<p>The ships remained docked for three days; during this time, the
+damaged ship was stripped of valuable items, and its crew prepared to
+return to the planet. The ship would be tracked by radar; it would
+remain in its orbit for centuries. The orbit would be made public, and
+one of the myriad space salvage corporations would eventually separate
+the ship of every bit of valuable material it held.</p>
+<p>After the rescue ship departed, the damaged ship remained alone for
+nearly a week; then, a massive ship jumped into the system, only a few
+hundred kilometers away. Its sharp, angular lines covered up a massive
+power plant and engine, and the double slots at the front were used
+for launching close-range attack drones. It was an offensive
+battleship, the likes of which only the UASF could design or
+afford. Such a ship would usually be detected by system scans the
+moment it jumped in; however, this ship was protected by an advanced
+visual and radio shield that warped space around it. As long as the
+shield remained active, the ship would be undetectable by all but the
+most advanced scanners.</p>
+<p>Over the next two days, it slowly approached the damaged ship; then,
+in the span of only a few minutes, the shield was disabled, the
+damaged ship was pulled in by drones, and the battleship jumped out
+with the damaged ship on board.</p>
+<p>The dramatic gravitic ripple was reported mere minutes later on the planet
+and on its three space stations; speculation abounded as to the
+cause. After the scanners had stopped going haywire, it was noticed
+that the damaged ship was gone. Nuclear thermal runaway in ship
+power plants was not unheard of, but it was rare; however, that it
+would happen to such a badly damaged ship was not a surprise. The
+event was quickly forgotten.</p>
+<p>The last member of the damaged ship’s crew had been discharged from
+the hospital the day of the event. None of them have been heard from
+since.</p>
+
+</section>
+
+<section>
+  <header id="atmospheric-entry">
+    <h1 class="name">Atmospheric Entry</h1>
+  </header>
+  <p>The <em>Wasp</em>‘s four aerodynamic drag flaps deploy at four hundred and
+fifty kilometers above the surface. The flaps protect the delicate
+engines during the harsh atmospheric entry, as well as decreasing
+terminal velocity once in the thick soup of the lower atmosphere. The
+building-sized spacecraft, gleaming white in the yellow glow of the
+distant sun, contains two crew and three hundred tons of out-of-system
+cargo. Some of it is legal, too.</p>
+<p>The bridge—if a two-man cockpit can be called that—displays the
+trajectory and surroundings of the ship, as well as the status of its
+systems. Instead of the inches-thick diamond windshield used in
+earlier models, the <em>Wasp</em> has a fully digital bridge. Sensors mounted
+on the vehicle relay data to the ship’s computer core, and it renders
+the environment and displays it on window-sized display panels. The
+<em>Wasp</em> is capable of flying itself in nearly any condition; like all
+modern ships, the pilot is aboard only as a precaution.</p>
+<p>The <em>Wasp</em> was built only three years ago, in 3402; and as such, it
+was a highly advanced, state-of-the-art spaceship, capable of both
+interstellar jumps and atmospheric entry and landing. In a pinch, it
+could jump a cumulative 30 light years per day.</p>
+<p>This last attribute was the reason its crew had chosen the <em>Wasp</em>. The
+manufacturer had only produced a dozen Athro-class ships before one
+had gone missing, along with its crew and single passenger, the leader
+of the twelve member systems of the Interplanetary Alliance. The legal
+proceedings mired the company, and they were shuttered within
+months. As the fastest ship in the galaxy, it made a good ship for
+barely-legal cargo.</p>
 <p>Plus, it looked really cool.</p>
-<hr />
-<p>As the ship began encountering the wispy tendrils of the upper atmosphere, the tail shield glows orange, then red, then white. The four drag flaps, held open with pairs of massive electromagnetic pistons, creak under the immense force as the white-hot plasma pushes them back. Inside, the seat restraints tighten up as the G-force gradually increases, and as the shaking becomes more pronounced, the plasma thrusters engage, aligning the vehicle and keeping it traveling down the center of the entry corridor.</p>
-<p>At one hundred and fifteen kilometers in altitude and pulling nearly four Gs, one of the pistons on the flaps snaps. Thick electrical cables whip around in the near-vacuum behind the flap; chunks of metal and ceramic fly about crazily. The flap, now held by only a single piston, begins to slowly retract towards the vehicle. The red-hot plasma streams past the edges of the flap, approaching the lip of the engine the flap was designed to protect.</p>
+<hr>
+<p>As the ship began encountering the wispy tendrils of the upper
+atmosphere, the tail shield glows orange, then red, then white. The
+four drag flaps, held open with pairs of massive electromagnetic
+pistons, creak under the immense force as the white-hot plasma pushes
+them back. Inside, the seat restraints tighten up as the G-force
+gradually increases, and as the shaking becomes more pronounced, the
+plasma thrusters engage, aligning the vehicle and keeping it traveling
+down the center of the entry corridor.</p>
+<p>At one hundred and fifteen kilometers in altitude and pulling nearly
+four Gs, one of the pistons on the flaps snaps. Thick electrical
+cables whip around in the near-vacuum behind the flap; chunks of metal
+and ceramic fly about crazily. The flap, now held by only a single
+piston, begins to slowly retract towards the vehicle. The red-hot
+plasma streams past the edges of the flap, approaching the lip of the
+engine the flap was designed to protect.</p>
 <p>Inside, alarms begin to go off.</p>
-<hr />
-<p>“Port side engine A is heating up past nominal,” calls out Jase as the master caution alerts go off and the gentle blue glow of the displays shifts to orange. “I’m also seeing reduced aero pressure in the ventral flap.” Out of the corner of my eye, I see him wave his hand over the control panels in front of him, his hand glowing orange from the alerts on the display. “It looks like we’ve got a partially retracted number three flap. I’ll bring up the partial flap failure checklist.”</p>
-<p>“Go right ahead,” I reply, watching the flight displays arrayed in front of me, and behind their glow, the digitally reconstructed view of space. I can see from the heads-up display that entry guidance is still engaged despite one of the four aero flaps not being fully deployed; the plasma thrusters on the nose can easily overcome a failed flap and keep the ship in the entry corridor. The engines, on the other hand… they’re not that good at operating after ingesting debris, especially if the debris was melted off of the engine itself in the first place. If an engine doesn’t work, we can still land, probably; if another engine fails during the landing burn, we’re dead meat. Admittedly, engine failures are incredibly unlikely, but if we can avoid a single engine out, it makes a second, fatal, engine failure much less likely.</p>
-<p>If the flap crumples much more, we’ll have to perform an entry abort. The standard entry abort procedure dictates running the engines at max thrust with the flaps retracted, then ditching in an ocean. Best case, it destroys all of the engines and the entire tail end of the ship; worst case, everybody dies anyway when the engines burn through and we’re still in the upper atmosphere. Needless to say, I’d prefer avoiding either one of those fates.</p>
+<hr>
+<p>“Port side engine A is heating up past nominal,” calls out Jase, my
+copilot, as the master caution alerts go off and the gentle blue glow
+of the displays shifts to orange. “I’m also seeing reduced aero
+pressure in the ventral flap.” Out of the corner of my eye, I see him
+wave his hand over the control panels in front of him, his hand
+glowing orange from the alerts on the display. “It looks like we’ve
+got a partially retracted number three flap. I’ll bring up the partial
+flap failure checklist.”</p>
+<p>“Go right ahead,” I reply, watching the flight displays arrayed in
+front of me, and behind their glow, the digitally reconstructed view
+of space. I can see from the heads-up display that entry guidance is
+still engaged despite one of the four aero flaps not being fully
+deployed; the plasma thrusters on the nose can easily overcome a
+failed flap and keep the ship in the entry corridor. The engines, on
+the other hand… they’re not that good at operating after ingesting
+debris, especially if the debris was melted off of the engine itself
+in the first place. If an engine doesn’t work, we can still land,
+probably; if another engine fails during the landing burn, we’re dead
+meat. Admittedly, engine failures are incredibly unlikely, but if we
+can avoid a single engine out, it makes a second, fatal, engine
+failure much less likely.</p>
+<p>If the flap crumples much more, we’ll have to perform an entry
+abort. The standard entry abort procedure dictates running the engines
+at max thrust with the flaps retracted, then ditching in an
+ocean. Best case, it destroys all of the engines and the entire tail
+end of the ship; worst case, everybody dies anyway when the engines
+burn through and we’re still in the upper atmosphere. Needless to say,
+I’d prefer avoiding either one of those fates.</p>
 <p>“Okay, first off,” Jase begins. “Confirm reactor efficiency both above 95%.”</p>
-<p>I look up at the overhead panel, where most of the systems controls are. Both reactors are operating at below 15% capacity and running at 98% efficiency; they’re also well within acceptable temperatures. “Yep, both good.”</p>
+<p>I look up at the overhead panel, where most of the systems controls
+are. Both reactors are operating at below 15% capacity and running at
+98% efficiency; they’re also well within acceptable
+temperatures. “Yep, both good.”</p>
 <p>“Fuel cells to AUTO.”</p>
-<p>All six fuel cell banks are on auto; none of them show any failures. “All green,” I tell him.</p>
+<p>All six fuel cell banks are on auto; none of them show any
+failures. “All green,” I tell him.</p>
 <p>“Uh, check the power levels to the flaps.”</p>
 <p>I glance at the four green bars, each of them full. “All at 100%.”</p>
-<p>“Okay, so it’s got to be a mechanical issue, then. What’s the temperature increase rate on the flap?”</p>
-<p>“I’m seeing thirty per second. We’ll be overstressing the number one engine a bit, but we should make it to the surface just fine.”</p>
-<p>He consults the procedures for the ship. “Uh, you’re not gonna like this,” he says, frowning. “They say thirty five per second is the abort temp. Something to do with runaway systems failure.” He looks up from the panel and watches me, waiting for my reaction.</p>
-<p>I consider an entry abort for a fraction of a second, then discard the idea. We’re not technically above the trigger temperature increase yet, and the checklists and procedures were written with ass-covering in mind. Plus, an entry abort would destroy the ship and we’d lose the cargo, and that’s on top of the fines we’d get hit with if the ship cratered anywhere remotely habitable.</p>
-<p>“We’ll stay with it,” I tell him. “If we hit forty, we’ll abort.” He nods in assent, then looks back at his panels and continues to monitor the ship’s systems.</p>
-<p>We’re at sixty kilometers now and still decelerating at about 3 Gs. The entire atmospheric entry sequence lasts anywhere from a minute or two to over seven minutes on large planets with dense atmospheres. It also depends a lot on how fast you enter the system; if you’re planning to perform a direct entry from a jump, you’ll be able to go quite a bit faster. We went for a direct entry on this particular mission; the less time we’re in space, the lower the chances we’ll be scanned by the system authorities and… well, you get the point.</p>
-<p>“Flap temperature rate is decreasing again,” Jase says. “It peaked at… let me see… thirty six degrees per second. I think the engine is still okay, but we won’t know for sure until we start it.”</p>
-<p>Now that the ship has gone through the worst of the atmospheric entry, the ride is gentler. This planet is a large earthlike; at 0.7 Gs, it’s close enough to Earth’s to be livable, but still low enough to require you to watch your gait carefully for the first few days as you adapt. It’s advantageous for us; it means we won’t need as much thrust to perform a safe landing.</p>
-<p>The next few minutes will be spent falling through the atmosphere at terminal velocity. At about fifteen kilometers, the drag brakes will retract, and a few seconds later, the four engines will start up and begin guiding us towards the spaceport. Before we can begin the landing, though, we have to check in with the spaceport controllers. Which reminds me.</p>
-<p>“This is <em>Wasp</em>,” I say. The ship will translate my words to whatever dialect or language they speak on the surface, then transmit them over navcom to the spaceport controllers, along with the ship’s ident code. “We are approximately three minutes out, targeting pad B5.” The landing pad was assigned to us while we were still in orbit, because spaceships usually don’t have a very long hover time; it’s usually measured in minutes. We can’t just hover there while they slot us in. Fuel isn’t the issue, though; when fully fueled, we have enough fuel to reach LEO from the surface, then retro burn, land, then repeat. The problem is overheating: the engines simply aren’t designed to run at high thrusts for very long. After all, they rarely need to; a majority of ships are used for ferrying cargo to and from a planet’s moons; those are, in reality, fully automated despite having one or two crew.</p>
-<p>The <em>Wasp</em> is still perfectly centered in the entry corridor. The plasma thrusters are doing a great job at keeping the ship in control, and the guidance computer is, as always, on top of everything.</p>
-<p>“Altitude: fifty kilometers,” enunciates the computer. The ship is smoothly falling through the atmosphere now; soon, the main engines will begin the startup sequence in preparation for the landing burn.</p>
-<p>“Standing by for flap retract,” calls out Jase. “I’ll watch the port A engine, see if anything falls off of it.” Despite his weak attempt at humor, he sounds strained. I’m pretty sure he’ll be asking for a raise soon.</p>
-<p>The layers of acoustic shielding separating the tail from the rest of the ship don’t fully block out the groaning, crunching noise the damaged flap makes as it crushes back towards the ship. “I’m seeing a 25% retract indication,” Jase says. That’s not good: the flap isn’t flush against the side of the ship. When the engine starts—<em>if</em> the engine starts—it’ll be partially blocked by a giant flap. The flap will burn through, of course, but until it does, we’ll be forced to fly at half thrust unless we want the ship to flip over when the left side of the ship only has one engine producing thrust. The computer would detect the massive thrust imbalance and instantly initiate an entry abort.</p>
-<p>I make my decision quickly. “Give me manual control of the vehicle,” I say to the ship. I grab the two joysticks, and moments later, I feel them suddenly soften as the computer disables the entry guidance. I trim the ship with the small thumb dials on the joysticks, then watch the heads-up display as the ship barrels past thirty kilometers altitude. The blue ocean beneath us is getting bigger by the second, and the sky isn’t black anymore. We’re only a minute or two away from either a smooth landing or a giant crater.</p>
-<p>“Jase, I have control of the vehicle. Disarm the port A and starboard B engine starters.”</p>
-<p>He disarms the engine starters. Now, when the engines start, the thrust will be mostly balanced. An orange warning appears onscreen: “Two-engine maximum thrust impact time: T-21 seconds.” That’s how much time we have left before even full thrust won’t save us. We have to move fast.</p>
-<p>“Okay,” I say to Jase. “Engage autostart on the port B and starboard A engines.”</p>
-<p>“Engaging… and we have fuel, we have ignition… and we have thrust.” His last statement comes right before the roar of the two engines; we’re both pushed back into our seats as the engines fight to slow our descent.</p>
-<p>“<em>Wasp</em>, be advised,” comes a controller’s synthesized voice over navcom. “We show you on half power and manual control.” The ship’s synthesizer makes him sound slightly disbelieving, and for good reason: the controller knows that the ship could fly itself more precisely than I ever could. That’s the problem, though: it will follow the procedures no matter what. I check the map; we’re well within divert range of the spaceport. My hand-flying isn’t the best, especially when flying backwards, and we’re a few hundred meters away from the ideal trajectory.</p>
+<p>“Okay, so it’s got to be a mechanical issue, then. What’s the
+temperature increase rate on the flap?”</p>
+<p>“I’m seeing thirty per second. We’ll be overstressing the number one
+engine a bit, but we should make it to the surface just fine.”</p>
+<p>He consults the procedures for the ship. “Uh, you’re not gonna like
+this,” he says, frowning. “They say thirty five per second is the
+abort temp. Something to do with runaway systems failure.” He looks up
+from the panel and watches me, waiting for my reaction.</p>
+<p>I consider an entry abort for a fraction of a second, then discard the
+idea. We’re not technically above the trigger temperature increase
+yet, and the checklists and procedures were written with ass-covering
+in mind. Plus, an entry abort would destroy the ship and we’d lose the
+cargo, and that’s on top of the fines we’d get hit with if the ship
+cratered anywhere remotely habitable.</p>
+<p>“We’ll stay with it,” I tell him. “If we hit forty, we’ll abort.” He
+nods in assent, then looks back at his panels and continues to monitor
+the ship’s systems.</p>
+<p>We’re at sixty kilometers now and still decelerating at about 3
+Gs. The entire atmospheric entry sequence lasts anywhere from a minute
+or two to over seven minutes on large planets with dense
+atmospheres. It also depends a lot on how fast you enter the system;
+if you’re planning to perform a direct entry from a jump, you’ll be
+able to go quite a bit faster. We went for a direct entry on this
+particular mission; the less time we’re in space, the lower the
+chances we’ll be scanned by the system authorities and… well, you
+get the point.</p>
+<p>“Flap temperature rate is decreasing again,” Jase says. “It peaked
+at… let me see… thirty six degrees per second. I think the engine
+is still okay, but we won’t know for sure until we start it.”</p>
+<p>Now that the ship has gone through the worst of the atmospheric entry,
+the ride is gentler. This planet is a large earthlike; at 0.7 Gs, it’s
+close enough to Earth’s to be livable, but still low enough to require
+you to watch your gait carefully for the first few days as you
+adapt. It’s advantageous for us; it means we won’t need as much thrust
+to perform a safe landing.</p>
+<p>The next few minutes will be spent falling through the atmosphere at
+terminal velocity. At about fifteen kilometers, the drag brakes will
+retract, and a few seconds later, the four engines will start up and
+begin guiding us towards the spaceport. Before we can begin the
+landing, though, we have to check in with the spaceport
+controllers. Which reminds me.</p>
+<p>“This is <em>Wasp</em>,” I say. The ship will translate my words to whatever
+dialect or language they speak on the surface, then transmit them over
+navcom to the spaceport controllers, along with the ship’s ident
+code. “We are approximately three minutes out, targeting pad B5.”  The
+landing pad was assigned to us while we were still in orbit, because
+spaceships usually don’t have a very long hover time; it’s usually
+measured in minutes. We can’t just hover there while they slot us
+in. Fuel isn’t the issue, though; when fully fueled, we have enough
+fuel to reach LEO from the surface, then retro burn, land, then
+repeat. The problem is overheating: the engines simply aren’t designed
+to run at high thrusts for very long. After all, they rarely need to;
+a majority of ships are used for ferrying cargo to and from a planet’s
+moons; those are, in reality, fully automated despite having one or
+two crew.</p>
+<p>The <em>Wasp</em> is still perfectly centered in the entry corridor. The
+plasma thrusters are doing a great job at keeping the ship in control,
+and the guidance computer is, as always, on top of everything.</p>
+<p>“Altitude: fifty kilometers,” enunciates the computer. The ship is
+smoothly falling through the atmosphere now; soon, the main engines
+will begin the startup sequence in preparation for the landing burn.</p>
+<p>“Standing by for flap retract,” calls out Jase. “I’ll watch the port A
+engine, see if anything falls off of it.” Despite his weak attempt at
+humor, he sounds strained. I’m pretty sure he’ll be asking for a raise
+soon.</p>
+<p>The layers of acoustic shielding separating the tail from the rest of
+the ship don’t fully block out the groaning, crunching noise the
+damaged flap makes as it crushes back towards the ship. “I’m seeing a
+25% retract indication,” Jase says. That’s not good: the flap isn’t
+flush against the side of the ship. When the engine starts—<em>if</em> the
+engine starts—it’ll be partially blocked by a giant flap. The flap
+will burn through, of course, but until it does, we’ll be forced to
+fly at half thrust unless we want the ship to flip over when the left
+side of the ship only has one engine producing thrust. The computer
+would detect the massive thrust imbalance and instantly initiate an
+entry abort.</p>
+<p>I make my decision quickly. “Give me manual control of the vehicle,” I
+say to the ship. I grab the two joysticks, and moments later, I feel
+them suddenly soften as the computer disables the entry guidance. I
+trim the ship with the small thumb dials on the joysticks, then watch
+the heads-up display as the ship barrels past thirty kilometers
+altitude. The blue ocean beneath us is getting bigger by the second,
+and the sky isn’t black anymore. We’re only a minute or two away from
+either a smooth landing or a giant crater.</p>
+<p>“Jase, I have control of the vehicle. Disarm the port A and
+starboard B engine starters.”</p>
+<p>He disarms the engine starters. Now, when the engines start, the
+thrust will be mostly balanced. An orange warning appears onscreen:
+“Two-engine maximum thrust impact time: T-21 seconds.” That’s how much
+time we have left before even full thrust won’t save us. We have to move fast.</p>
+<p>“Okay,” I say to Jase. “Engage autostart on the port B and starboard A
+engines.”</p>
+<p>“Engaging… and we have fuel, we have ignition… and we have
+thrust.”  His last statement comes right before the roar of the two
+engines; we’re both pushed back into our seats as the engines fight to
+slow our descent.</p>
+<p>“<em>Wasp</em>, be advised,” comes a controller’s synthesized voice over
+navcom. “We show you on half power and manual control.” The ship’s
+synthesizer makes him sound slightly disbelieving, and for good
+reason: the controller knows that the ship could fly itself more
+precisely than I ever could. That’s the problem, though: it will
+follow the procedures no matter what. I check the map; we’re well
+within divert range of the spaceport. My hand-flying isn’t the best,
+especially when flying backwards, and we’re a few hundred meters away
+from the ideal trajectory.</p>
 <p>“This is <em>Wasp</em>. I am aware we are on manual control.”</p>
-<p>The ship has reacquired a navigation lock after losing it during atmospheric entry, and it knows where we are again. A white ring is drawn on the display above the spaceport, and a thick line shows us the most fuel-efficient trajectory to it. The spaceport is at the edge of the ocean, next to the city; or rather, the spaceport is <em>on</em> the ocean, the landing pads arrayed in a star pattern. It uses the ocean water for acoustic insulation during launch and landing; and as a bonus, if a spaceship craters on landing, it will just fall into the ocean, along with the pad, instead of blowing up half of the spaceport.</p>
-<p>The city behind it is drab and uninspiring, even from the air. There are only a couple dozen skyscrapers—this planet is less technologically advanced than most. The rest of the city looks like any other city, with short, squat buildings surrounded by a spiderweb of roads. To the north, the sandy landscape blends into a dense forest. It’s the sort of city I wouldn’t want to live in; I wouldn’t want to live in any city, for that matter. I much prefer space.</p>
-<p>“The flap indicates 2% deploy,” says Jase suddenly. “All three sensors are reporting that.” The flap is now clear of the engine, and won’t pose a risk if we start it up. The engine still might have ingested debris, though. Our trajectory is still looking good, if a bit imprecise; but at less than sixty seconds until touchdown, the margins get tighter. With the engine fully exposed now, I should be able to safely engage the landing guidance.</p>
-<p>“Re-arm all the engines and start the other two,” I tell Jase. “I’m going to engage landing guidance as soon as all four engines are running. Keep an eye on port A.”</p>
-<p>He flips the arm switches and presses the autostart buttons; in seconds, the roar of the engines gets louder and we’re pushed even harder into our seats. “Engine looks good,” he calls out. “It’s a few percent below, but the computer’s taken care of that.”</p>
-<p>“You have the controls,” I say to the ship, and the controls instantly stiffen up as the ship begins to realign itself for final approach and landing. I let go of the joysticks and lean back into my chair as the ship descends towards the spaceport.</p>
-<p>“Altitude, one kilometer,” enunciates the ship. “Speed, one hundred twenty knots. Touchdown in fifteen seconds.” The spaceport is rapidly approaching now; the skyscrapers appear to be suddenly growing taller as we descend below their tops. The engine thrust is finely modulated by the ship’s computers, and the plasma thrusters fire in short bursts to orient the ship.</p>
-<p>“Engine’s still looking good,” calls out Jase. “A bit hot, but that’s probably residual.”</p>
-<p>“Altitude, four hundred meters,” announces the ship. “Prepare for landing.”</p>
-<p>I can feel the ship guiding itself towards the pad, only a few seconds away. The engine thrust lessens a bit, and the roar of the engines changes pitch as they throttle down. The last hundred meters or so of the landing are done slowly and precisely. The manufacturer of the <em>Wasp</em> prioritized smooth, precise control; nowhere was this more apparent than during landing.</p>
+<p>The ship has reacquired a navigation lock after losing it during
+atmospheric entry, and it knows where we are again. A white ring is
+drawn on the display above the spaceport, and a thick line shows us
+the most fuel-efficient trajectory to it. The spaceport is at the edge
+of the ocean, next to the city; or rather, the spaceport is <em>on</em> the
+ocean, the landing pads arrayed in a star pattern. It uses the ocean
+water for acoustic insulation during launch and landing; and as a
+bonus, if a spaceship craters on landing, it will just fall into the
+ocean, along with the pad, instead of blowing up half of the
+spaceport.</p>
+<p>The city behind it is drab and uninspiring, even from the air. There
+are only a couple dozen skyscrapers—this planet is less
+technologically advanced than most. The rest of the city looks like
+any other city, with short, squat buildings surrounded by a spiderweb
+of roads. To the north, the sandy landscape blends into a dense
+forest. It’s the sort of city I wouldn’t want to live in; I wouldn’t
+want to live in any city, for that matter. I much prefer space.</p>
+<p>“The flap indicates 2% deploy,” says Jase suddenly. “All three sensors
+are reporting that.” The flap is now clear of the engine, and won’t
+pose a risk if we start it up. The engine still might have ingested
+debris, though. Our trajectory is still looking good, if a bit
+imprecise; but at less than sixty seconds until touchdown, the margins
+get tighter. With the engine fully exposed now, I should be able to
+safely engage the landing guidance.</p>
+<p>“Re-arm all the engines and start the other two,” I tell Jase. “I’m
+going to engage landing guidance as soon as all four engines are
+running. Keep an eye on port A.”</p>
+<p>He flips the arm switches and presses the autostart buttons; in
+seconds, the roar of the engines gets louder and we’re pushed even
+harder into our seats. “Engine looks good,” he calls out. “It’s a few
+percent below, but the computer’s taken care of that.”</p>
+<p>“You have the controls,” I say to the ship, and the controls instantly
+stiffen up as the ship begins to realign itself for final approach and
+landing. I let go of the joysticks and lean back into my chair as the
+ship descends towards the spaceport.</p>
+<p>“Altitude, one kilometer,” enunciates the ship. “Speed, one hundred
+twenty knots. Touchdown in fifteen seconds.” The spaceport is rapidly
+approaching now; the skyscrapers appear to be suddenly growing taller
+as we descend below their tops. The engine thrust is finely modulated
+by the ship’s computers, and the plasma thrusters fire in short bursts
+to orient the ship.</p>
+<p>“Engine’s still looking good,” calls out Jase. “A bit hot, but that’s
+probably residual.”</p>
+<p>“Altitude, four hundred meters,” announces the ship. “Prepare for
+landing.”</p>
+<p>I can feel the ship guiding itself towards the pad, only a few seconds
+away. The engine thrust lessens a bit, and the roar of the engines
+changes pitch as they throttle down. The last hundred meters or so of
+the landing are done slowly and precisely. The manufacturer of the
+<em>Wasp</em> prioritized smooth, precise control; nowhere was this more
+apparent than during landing.</p>
 <p>“Altitude, fifty meters. Landing gear deployed.”</p>
-<p>The ship is descending very slowly now. I’ve seen an Athro-class ship land from the outside before, a long time ago; it’s an awe-inspiring sight, to see this building-sized ship nearly stopped in midair. I watched from a distance, of course; if you have even half a brain, you don’t stand near a spaceship with its engines running.</p>
+<p>The ship is descending very slowly now. I’ve seen an Athro-class ship
+land from the outside before, a long time ago; it’s an awe-inspiring
+sight, to see this building-sized ship nearly stopped in midair. I
+watched from a distance, of course; if you have even half a brain, you
+don’t stand near a spaceship with its engines running.</p>
 <p>“Altitude, eight meters. Time to landing: one second.”</p>
-<p>The ship bumps a bit as it touches down on the landing pad, and the engines are shut off instantly. The plasma thrusters fire once more, to stabilize the landing legs; and then all is silent except for the near-silent hum of a spaceship.</p>
-<p>Jase looks over at me as he removes his headphones. “We made it in one piece,” he says.</p>
+<p>The ship bumps a bit as it touches down on the landing pad, and the
+engines are shut off instantly. The plasma thrusters fire once more,
+to stabilize the landing legs; and then all is silent except for the
+near-silent hum of a spaceship.</p>
+<p>Jase looks over at me as he removes his headphones. “We made it in one
+piece,” he says.</p>
 <p>“That we did,” I reply.</p>
-<p>“We had a mechanical failure which would probably have been fatal if I hadn’t helped you,” he adds. “I’ve kept quiet about what you’ve been doing for the last year and a half, too.”</p>
-<p>“So,” he finishes, “Can I have a raise?”</p>
-</body>
+<p>“We had a mechanical failure which would probably have been fatal if I
+hadn’t helped you,” he adds. “I’ve kept quiet about what you’ve been
+doing for the last year and a half, too. So,” he finishes, “Can I have
+a raise?”</p>
+
+</section>
+
+<section>
+  <header id="repairs-underway">
+    <h1 class="name">Repairs Underway</h1>
+  </header>
+  <p>The mechanics are amazed. They say that they’ve never seen damage this
+extensive on a ship before.</p>
+
+</section>
+
+    </main>
+  </body>
 </html>

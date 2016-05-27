@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Merriweather");
+* {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  font-family: 'Roboto Slab';
+  margin-top: 48px;
+  padding: 12px 0;
+}
+#header .title {
+  font-size: 400%;
+  font-weight: 900;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin: 12px 0;
+}
+#header .author {
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+section {
+  margin-top: 8em;
+  line-height: 150%;
+}
+section header {
+  background-color: #444;
+  color: #fff;
+  margin: 0 -48px;
+  padding: 12px 48px;
+  font-family: 'Roboto Slab';
+  margin-bottom: 48px;
+}
+section header .name {
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 6px 0;
+}
+section hr:after {
+  content: '***';
+  display: block;
+  text-align: center;
+  margin: 2em 0;
+  letter-spacing: 2em;
+}
+section p + p {
+  margin-top: 1em;
+  text-indent: 2em;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+html {
+  background-color: #eee;
+  font-family: 'Merriweather', serif;
+  color: #444;
+}
+body {
+  width: 100%;
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 0 1em;
+  padding-bottom: 80vh;
+}
