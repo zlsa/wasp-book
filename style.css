@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Merriweather");
 * {
   background: none;
   border: none;
@@ -16,7 +16,7 @@
   padding: 0;
 }
 #header {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Mono';
   margin-top: 48px;
   padding: 12px 0;
 }
@@ -42,7 +42,7 @@ section header {
   color: #fff;
   margin: 0 -48px;
   padding: 12px 48px;
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Mono';
   margin-bottom: 48px;
 }
 section header .name {
@@ -50,6 +50,13 @@ section header .name {
   font-weight: bold;
   text-transform: uppercase;
   margin: 6px 0;
+}
+section header .name .number {
+  opacity: 0.5;
+  margin-right: 0.5em;
+}
+section em {
+  margin-right: 0.2em;
 }
 section hr:after {
   content: '***';

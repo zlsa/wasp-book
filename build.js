@@ -23,12 +23,15 @@ function read_section(filename, metadata) {
   var s = {
     filename: filename,
     name: metadata.name,
+    number: sections.length,
     name_clean: metadata.name.replace(/[\'\"]/, '').replace(/[^\sa-zA-Z0-9]+/, '-').replace(/\s+/, '-').toLowerCase()
   };
 
   s.text = fs.readFileSync(filename, 'utf8');
 
   sections.push(s);
+
+  return s.text.split(' ').length;
 }
 
 function md_to_html(sections) {
@@ -54,19 +57,26 @@ function html_to_string(sections) {
 }
 
 function read() {
+
+  let sections = [
+    ['src/prologue.md', "Prologue"],
+    ['src/atmospheric-entry.md', "Atmospheric Entry"],
+    ['src/repairs-underway.md', "Repairs Underway"],
+  ];
+
+  let words = 0;
+
+  for(let i=0; i<sections.length; i++) {
+    let section = sections[i];
+    
+    words += read_section(section[0], {
+      name: section[1]
+    });
+    
+  }
+
+  console.log(words + ' words');
   
-  read_section('src/prologue.md', {
-    name: "Prologue"
-  });
-
-  read_section('src/atmospheric-entry.md', {
-    name: "Atmospheric Entry"
-  });
-
-  read_section('src/repairs-underway.md', {
-    name: "Repairs Underway"
-  });
-
 }
 
 function generate() {
@@ -75,8 +85,12 @@ function generate() {
   fs.writeFileSync('index.html', templates.page.render({
     title: 'Wasp',
     author: 'Jon Ross',
-    sections: html_sections
+    sections: html_sections,
+    blurb: [
+      'In progress. Last updated October 15.'
+    ].join('\n')
   }));
+  
 }
 
 stylus.render(fs.readFileSync('static/main.styl', 'utf8'), {

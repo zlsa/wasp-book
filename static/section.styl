@@ -11,9 +11,15 @@ section {
     margin: 0 (padding * -4);
     padding: padding padding * 4;
     
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Mono';
 
     .name {
+
+      .number {
+        opacity: 0.5;
+        margin-right: 0.5em;
+      }
+      
       font-size: 150%;
       font-weight: bold;
       text-transform: uppercase;
@@ -25,6 +31,10 @@ section {
   }
 
   line-height: 150%;
+
+  em {
+    margin-right: 0.2em;
+  }
 
   hr:after {
     content: '***';

@@ -1,4 +1,4 @@
-The _Wasp_'s four aerodynamic drag flaps deploy at four hundred and
+The four aerodynamic drag flaps deploy at four hundred and
 fifty kilometers above the surface. The flaps protect the delicate
 engines during the harsh atmospheric entry, as well as decreasing
 terminal velocity once in the thick soup of the lower atmosphere. The
@@ -22,8 +22,8 @@ could jump a cumulative 30 light years per day.
 
 This last attribute was the reason its crew had chosen the _Wasp_. The
 manufacturer had only produced a dozen Athro-class ships before one
-had gone missing, along with its crew and single passenger, the leader
-of the twelve member systems of the Interplanetary Alliance. The legal
+had gone missing along with its crew and lone passenger, the leader of
+twelve member systems of the Interplanetary Alliance. The legal
 proceedings mired the company, and they were shuttered within
 months. As the fastest ship in the galaxy, it made a good ship for
 barely-legal cargo.
@@ -41,13 +41,15 @@ gradually increases, and as the shaking becomes more pronounced, the
 plasma thrusters engage, aligning the vehicle and keeping it traveling
 down the center of the entry corridor.
 
-At one hundred and fifteen kilometers in altitude and pulling nearly
-four Gs, one of the pistons on the flaps snaps. Thick electrical
-cables whip around in the near-vacuum behind the flap; chunks of metal
-and ceramic fly about crazily. The flap, now held by only a single
-piston, begins to slowly retract towards the vehicle. The red-hot
-plasma streams past the edges of the flap, approaching the lip of the
-engine the flap was designed to protect.
+At one hundred and fifteen kilometers in altitude and with the ship
+undergoing nearly four Gs of acceleration, one of the pistons
+snaps. Thick electrical cables whip around in the near-vacuum behind
+the flap; chunks of metal and thermal ceramic fly about crazily, some
+smashing through the protective shielding into the other piston. The
+flap, now held by only a single piston, begins to slowly retract
+towards the vehicle. The red-hot plasma streams past the edges of the
+flap, approaching the lip of the engine nozzle the flap was designed
+to protect.
 
 Inside, alarms begin to go off.
 
@@ -68,23 +70,34 @@ of space. I can see from the heads-up display that entry guidance is
 still engaged despite one of the four aero flaps not being fully
 deployed; the plasma thrusters on the nose can easily overcome a
 failed flap and keep the ship in the entry corridor. The engines, on
-the other hand... they're not that good at operating after ingesting
-debris, especially if the debris was melted off of the engine itself
-in the first place. If an engine doesn't work, we can still land,
-probably; if another engine fails during the landing burn, we're dead
-meat. Admittedly, engine failures are incredibly unlikely, but if we
-can avoid a single engine out, it makes a second, fatal, engine
-failure much less likely.
+the other hand... well, they're not that good at operating after
+ingesting debris, especially if the debris was melted off of the
+engine itself in the first place. If an engine doesn't work, we can
+still land, probably; if another engine fails during the landing burn,
+we're dead meat. Admittedly, engine failures are incredibly unlikely,
+but if we can avoid a single engine out, it makes a second, fatal,
+engine failure much less likely.
 
 If the flap crumples much more, we'll have to perform an entry
 abort. The standard entry abort procedure dictates running the engines
-at max thrust with the flaps retracted, then ditching in an
-ocean. Best case, it destroys all of the engines and the entire tail
-end of the ship; worst case, everybody dies anyway when the engines
-burn through and we're still in the upper atmosphere. Needless to say,
-I'd prefer avoiding either one of those fates.
+at max thrust with the flaps retracted to avoid debris injection, then
+descending to 0.6 atmospheres under engine thrust, deploying
+parachutes, and splashing down in an ocean. Did I say _splashing
+down_? I meant _smashing down_. The parachutes aren't too great at
+slowing the ship down; after all, they're used for emergencies
+only. They just reduce terminal velocity from Mach 3 or so to a
+survivable 50 meters per second. Survivable for the passengers, but
+not for the payload.
 
-"Okay, first off," Jase begins. "Confirm reactor efficiency both above 95%."
+Best case, performing an entry abort destroys all four of the engines
+and the entire tail end of the ship, along with the cargo compartment;
+worst case, everybody dies anyway when the engines burn through or get
+destroyed by debris and we're still too fast and high for
+parachutes. Needless to say, I'd prefer avoiding either one of those
+fates.
+
+"Okay, first off," Jase begins. "Confirm reactor efficiency both above
+95%."
 
 I look up at the overhead panel, where most of the systems controls
 are. Both reactors are operating at below 15% capacity and running at
@@ -199,13 +212,14 @@ altitude. The blue ocean beneath us is getting bigger by the second,
 and the sky isn't black anymore. We're only a minute or two away from
 either a smooth landing or a giant crater.
 
-"Jase, I have control of the vehicle. Disarm the port A and
-starboard B engine starters."
+"Jase, I have control of the vehicle. Disarm the port A and starboard
+B engine starters."
 
 He disarms the engine starters. Now, when the engines start, the
 thrust will be mostly balanced. An orange warning appears onscreen:
 "Two-engine maximum thrust impact time: T-21 seconds." That's how much
-time we have left before even full thrust won't save us. We have to move fast.
+time we have left before even full thrust won't save us. We have to
+move fast.
 
 "Okay," I say to Jase. "Engage autostart on the port B and starboard A
 engines."
@@ -300,13 +314,13 @@ don't stand near a spaceship with its engines running.
 
 The ship bumps a bit as it touches down on the landing pad, and the
 engines are shut off instantly. The plasma thrusters fire once more,
-to stabilize the landing legs; and then all is silent except for the
-near-silent hum of a spaceship.
+to stabilize the landing legs; and then all is calm except for the
+near-silent hum of a landed spaceship.
 
 Jase looks over at me as he removes his headphones. "We made it in one
 piece," he says.
 
-"That we did," I reply.
+"That we did," I reply as I go through the power-down checklist.
 
 "We had a mechanical failure which would probably have been fatal if I
 hadn't helped you," he adds. "I've kept quiet about what you've been
