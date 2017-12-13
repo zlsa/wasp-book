@@ -187,7 +187,7 @@ smoothly falling through the atmosphere now; soon, the main engines
 will begin the startup sequence in preparation for the landing burn.
 
 "Standing by for flap retract," calls out Jase. "I'll watch the port A
-engine, see if anything falls off of it." Despite his weak attempt at
+engine, check for anything falling off." Despite his weak attempt at
 humor, he sounds strained. I'm pretty sure he'll be asking for a raise
 soon.
 

@@ -10,7 +10,7 @@ html, body {
 }
 
 html {
-  background-color: #eee;
+  background-color: #f8f8f8;
   
   font-family: 'Merriweather', serif;
   color: #444;
@@ -24,3 +24,17 @@ body {
 
   padding-bottom: 80vh;
 }
+
+@media print {
+
+  html {
+    background-color: transparent;
+  }
+  
+  body {
+    max-width: none;
+    padding-bottom: 0;
+  }
+  
+}
+

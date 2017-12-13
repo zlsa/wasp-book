@@ -1,7 +1,12 @@
 
+
 section {
   
   margin-top: 8em;
+
+  @media print {
+    margin-top: 3em;
+  }
   
   header {
 
@@ -13,6 +18,14 @@ section {
     
     font-family: 'Roboto Mono';
 
+    @media print {
+      padding: padding padding;
+      margin: 0;
+      background-color: transparent;
+      color: #444;
+    }
+    
+    
     .name {
 
       .number {
@@ -30,10 +43,19 @@ section {
     margin-bottom: padding * 4;
   }
 
-  line-height: 150%;
+  h3 {
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  line-height: 170%;
 
   em {
-    margin-right: 0.2em;
+    margin-right: 0.1em;
   }
 
   hr:after {
@@ -49,4 +71,27 @@ section {
     text-indent: 2em;
   }
 
+  @media print {
+    line-height: 175%;
+
+    p + p {
+      margin-top: 0;
+    }
+    
+  }
+  
+  pre, code {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 95%;
+    font-weight: bold;
+
+    color: #444;
+  }
+
+  pre {
+    margin: padding 0;
+    padding: 0 padding*2;
+  }
+
 }
+

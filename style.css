@@ -33,9 +33,28 @@
   text-transform: uppercase;
   margin: 12px 0;
 }
+#header .url {
+  font-size: 100%;
+  font-weight: bold;
+  margin: 12px 0;
+  display: none;
+}
+#header .url a {
+  text-decoration: underline;
+}
+@media print {
+  #header .url {
+    display: block;
+  }
+}
 section {
   margin-top: 8em;
-  line-height: 150%;
+  line-height: 170%;
+}
+@media print {
+  section {
+    margin-top: 3em;
+  }
 }
 section header {
   background-color: #444;
@@ -44,6 +63,14 @@ section header {
   padding: 12px 48px;
   font-family: 'Roboto Mono';
   margin-bottom: 48px;
+}
+@media print {
+  section header {
+    padding: 12px 12px;
+    margin: 0;
+    background-color: transparent;
+    color: #444;
+  }
 }
 section header .name {
   font-size: 150%;
@@ -55,8 +82,15 @@ section header .name .number {
   opacity: 0.5;
   margin-right: 0.5em;
 }
+section h3 {
+  font-family: Roboto Mono;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 2em 0;
+}
 section em {
-  margin-right: 0.2em;
+  margin-right: 0.1em;
 }
 section hr:after {
   content: '***';
@@ -69,13 +103,32 @@ section p + p {
   margin-top: 1em;
   text-indent: 2em;
 }
+@media print {
+  section {
+    line-height: 175%;
+  }
+  section p + p {
+    margin-top: 0;
+  }
+}
+section pre,
+section code {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 95%;
+  font-weight: bold;
+  color: #444;
+}
+section pre {
+  margin: 12px 0;
+  padding: 0 24px;
+}
 html,
 body {
   width: 100%;
   min-height: 100%;
 }
 html {
-  background-color: #eee;
+  background-color: #f8f8f8;
   font-family: 'Merriweather', serif;
   color: #444;
 }
@@ -85,4 +138,13 @@ body {
   margin: 0 auto;
   padding: 0 1em;
   padding-bottom: 80vh;
+}
+@media print {
+  html {
+    background-color: transparent;
+  }
+  body {
+    max-width: none;
+    padding-bottom: 0;
+  }
 }

@@ -1,9 +1,10 @@
+
 The spaceship blinked into existence about sixteen thousand kilometers
 above the blue-gray surface of the planet. At first, it sat there
 silently; then, after a few minutes, the four massive powerplants
 slowly resumed their quiet hum, and the plasma thrusters at the nose
 and the tail thrust in short bursts to reorient the heavy ship. The
-jump it had just performed was much further than usual, and as a
+jump it had just performed was much farther than usual, and as a
 result, it took the ship's full energy reserves to complete the jump,
 leaving very little power remaining in the capacitors afterwards.
 
@@ -22,8 +23,8 @@ it would be preparing for planetary entry by lowering its orbit. In
 its current condition, though, it couldn't hope to survive the
 atmospheric entry to the surface in one piece; indeed, it was almost a
 miracle that it had completed the jump in the first place. Damage that
-extensive usually resulted in the ship being scrapped; it was simply too
-expensive and difficult to repair.
+extensive usually resulted in the ship being scrapped; it was simply
+too expensive and difficult to repair.
 
 So the captain sent out a distress signal on the system-wide navcom
 network, and a few hours later, a smaller ship with red and white

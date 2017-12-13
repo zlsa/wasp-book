@@ -87,7 +87,7 @@ function generate() {
     author: 'Jon Ross',
     sections: html_sections,
     blurb: [
-      'In progress. Last updated October 15.'
+      'In progress. Last updated December 12.'
     ].join('\n')
   }));
   
